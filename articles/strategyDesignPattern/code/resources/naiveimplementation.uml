@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>naiveimplementation</OriginalElement>
+  <nodes>
+    <node x="0.0" y="276.0">naiveimplementation.Robin</node>
+    <node x="339.0" y="276.0">naiveimplementation.Superman</node>
+    <node x="508.5" y="0.0">naiveimplementation.Superhero</node>
+    <node x="678.0" y="276.0">naiveimplementation.Wonderwoman</node>
+    <node x="1017.0" y="276.0">naiveimplementation.Batman</node>
+    <node x="0.0" y="465.0">naiveimplementation.AbilitiesDisplay</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="naiveimplementation.Wonderwoman" target="naiveimplementation.Superhero">
+      <point x="0.0" y="-72.0" />
+      <point x="837.5" y="256.0" />
+      <point x="707.875" y="256.0" />
+      <point x="39.875" y="113.0" />
+    </edge>
+    <edge source="naiveimplementation.Superman" target="naiveimplementation.Superhero">
+      <point x="0.0" y="-72.0" />
+      <point x="498.5" y="256.0" />
+      <point x="628.125" y="256.0" />
+      <point x="-39.875" y="113.0" />
+    </edge>
+    <edge source="naiveimplementation.Robin" target="naiveimplementation.Superhero">
+      <point x="0.0" y="-72.0" />
+      <point x="159.5" y="246.0" />
+      <point x="548.375" y="246.0" />
+      <point x="-119.625" y="113.0" />
+    </edge>
+    <edge source="naiveimplementation.Batman" target="naiveimplementation.Superhero">
+      <point x="0.0" y="-72.0" />
+      <point x="1176.5" y="246.0" />
+      <point x="787.625" y="246.0" />
+      <point x="119.625" y="113.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8525073746312685" x="668.0" y="304.5" />
+  <SelectedNodes>
+    <node>naiveimplementation.Batman</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

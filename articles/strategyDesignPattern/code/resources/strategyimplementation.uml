@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategyimplementation</OriginalElement>
+  <nodes>
+    <node x="889.0" y="681.0">strategyimplementation.InvisibilityImpossible</node>
+    <node x="0.0" y="0.0">strategyimplementation.Superhero</node>
+    <node x="0.0" y="538.0">strategyimplementation.InvisibilityAbility</node>
+    <node x="481.0" y="390.0">strategyimplementation.Batman</node>
+    <node x="0.0" y="829.0">strategyimplementation.FlyAbility</node>
+    <node x="990.0" y="829.0">strategyimplementation.AbilitiesDisplay</node>
+    <node x="1558.0" y="390.0">strategyimplementation.Superman</node>
+    <node x="668.0" y="972.0">strategyimplementation.SuperFastFly</node>
+    <node x="1199.0" y="390.0">strategyimplementation.Wonderwoman</node>
+    <node x="436.0" y="681.0">strategyimplementation.InvisibilityPossible</node>
+    <node x="840.0" y="390.0">strategyimplementation.Robin</node>
+    <node x="283.0" y="972.0">strategyimplementation.NoFlyingPossible</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategyimplementation.NoFlyingPossible" target="strategyimplementation.FlyAbility">
+      <point x="0.0" y="0.0" />
+      <point x="455.5" y="880.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategyimplementation.SuperFastFly" target="strategyimplementation.FlyAbility">
+      <point x="0.0" y="0.0" />
+      <point x="806.5" y="880.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategyimplementation.Batman" target="strategyimplementation.Superhero">
+      <point x="0.0" y="0.0" />
+      <point x="640.5" y="175.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategyimplementation.Superman" target="strategyimplementation.Superhero">
+      <point x="0.0" y="0.0" />
+      <point x="1717.5" y="175.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategyimplementation.InvisibilityImpossible" target="strategyimplementation.InvisibilityAbility">
+      <point x="0.0" y="0.0" />
+      <point x="1112.5" y="589.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategyimplementation.Robin" target="strategyimplementation.Superhero">
+      <point x="0.0" y="0.0" />
+      <point x="999.5" y="175.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategyimplementation.InvisibilityPossible" target="strategyimplementation.InvisibilityAbility">
+      <point x="0.0" y="0.0" />
+      <point x="642.5" y="589.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="strategyimplementation.Wonderwoman" target="strategyimplementation.Superhero">
+      <point x="0.0" y="0.0" />
+      <point x="1358.5" y="175.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Tree" zoom="0.6093832366895098" x="938.5" y="537.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
