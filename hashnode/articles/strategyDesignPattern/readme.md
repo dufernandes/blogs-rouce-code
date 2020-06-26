@@ -1,5 +1,5 @@
 # Strategy Design Pattern
-Here is the code sample for the Strategy Design Pattern explanation.
+1Here is the code sample for the Strategy Design Pattern explanation.
 
 In the directory `naiveimplementation` one finds, as the name suggests, a naive implementation which can be improved. 
 

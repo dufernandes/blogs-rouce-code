@@ -1,5 +1,7 @@
-# Hashnode code samples
-Here it is stored code samples for [hashnode articles and posts](https://hashnodeblog.eduardofernandes.dev/) written by Eduardo Antonio Cecilio Fernandes.
+# Blogs code samples
+Here it is stored code samples written by Eduardo Antonio Cecilio Fernandes: 
+- [hashnode articles and posts](https://hashnodeblog.eduardofernandes.dev/)
+- Dev.to 
 
 ## Articles
  - Link to [Strategy Design Pattern sample code](articles/strategyDesignPattern/readme.md).
