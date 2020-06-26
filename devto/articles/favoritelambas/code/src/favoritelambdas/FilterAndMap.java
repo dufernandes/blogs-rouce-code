@@ -9,9 +9,9 @@ public class FilterAndMap {
     List<Superhero> coolSuperheroes =
         Person.createPersonList().stream()
             .filter(Person::isPersonCool)
-            .map(coolPeople -> new Superhero(coolPeople.getName(), "be invisible"))
+            .map(coolPeople -> new Superhero(coolPeople.getAge(), coolPeople.getName(), "be invisible"))
             .collect(Collectors.toList());
 
-    ListHelper.printListInOneLine("Filter by coolness and map to superheroes",  coolSuperheroes);
+    PrintHelper.printListInOneLine("Filter by coolness and map to superheroes",  coolSuperheroes);
   }
 }

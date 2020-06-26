@@ -10,10 +10,10 @@ public class MapList {
 
     List<Superhero> superheroes = personList
         .stream()
-        .map(person -> new Superhero(person.getName(), "fly")).collect(
+        .map(person -> new Superhero(person.getAge(), person.getName(), "fly")).collect(
         Collectors.toList());
 
-    ListHelper.printListInOneLine("Map ordinary people to superheroes",  superheroes);
+    PrintHelper.printListInOneLine("Map ordinary people to superheroes",  superheroes);
   }
 
 }

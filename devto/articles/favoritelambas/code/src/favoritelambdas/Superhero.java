@@ -1,10 +1,12 @@
 package favoritelambdas;
 
 public class Superhero {
+  private int age;
   private String name;
   private String superPower;
 
-  public Superhero(String name, String superPower) {
+  public Superhero(int age, String name, String superPower) {
+    this.age = age;
     this.name = name;
     this.superPower = superPower;
   }
@@ -12,7 +14,8 @@ public class Superhero {
   @Override
   public String toString() {
     return "Superhero{" +
-        "name='" + name + '\'' +
+        "age=" + age +
+        ", name='" + name + '\'' +
         ", superPower='" + superPower + '\'' +
         '}';
   }
@@ -31,5 +34,13 @@ public class Superhero {
 
   public void setSuperPower(String superPower) {
     this.superPower = superPower;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
   }
 }

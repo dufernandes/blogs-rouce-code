@@ -12,7 +12,7 @@ public class FilterList {
     List<Integer> filteredElements = elements.stream().filter(e -> e > 10)
         .collect(Collectors.toList());
 
-    ListHelper.printListInOneLine("Filter Integers higher than 10", filteredElements);
+    PrintHelper.printListInOneLine("Filter Integers higher than 10", filteredElements);
   }
 
   public static void filterPeopleByAge() {
@@ -22,7 +22,7 @@ public class FilterList {
         filteredPersonList =
         peopleList.stream().filter(person -> person.getAge() > 30).collect(Collectors.toList());
 
-    ListHelper.printListInOneLine("Filter people older than 30", filteredPersonList);
+    PrintHelper.printListInOneLine("Filter people older than 30", filteredPersonList);
   }
 
   public static void filterPeopleByCoolness() {
@@ -32,7 +32,7 @@ public class FilterList {
         filteredPersonList =
         peopleList.stream().filter(Person::isPersonCool).collect(Collectors.toList());
 
-    ListHelper.printListInOneLine("Filter by cool people", filteredPersonList);
+    PrintHelper.printListInOneLine("Filter by cool people", filteredPersonList);
   }
 
 }
