@@ -11,10 +11,10 @@ public class FavoriteLambdas {
     GatheringData.sumIntsUsingIntStreamSum();
     GatheringData.sumIntsUsingStreamSum();
     GatheringData.sumIntsUsingReduce();
-    GatheringData.calculateMeanIntsUsingIntStreamSum();
-    GatheringData.calculateMeanIntsUsingStreamSum();
-    GatheringData.calculateMaxIntsUsingStreamSum();
-    GatheringData.calculateMinIntsUsingStreamSum();
+    GatheringData.calculateMeanIntsUsingIntStreamMean();
+    GatheringData.calculateMeanIntsUsingStreamMean();
+    GatheringData.calculateMaxIntsUsingStreamMax();
+    GatheringData.calculateMinIntsUsingStreamMin();
     FilterMapGather.filterByCoolnessTransformIntoSuperheroCalculageAgeAverage();
   }
 }

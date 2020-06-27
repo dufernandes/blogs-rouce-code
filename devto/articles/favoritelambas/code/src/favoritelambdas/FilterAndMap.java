@@ -12,6 +12,6 @@ public class FilterAndMap {
             .map(coolPeople -> new Superhero(coolPeople.getAge(), coolPeople.getName(), "be invisible"))
             .collect(Collectors.toList());
 
-    PrintHelper.printListInOneLine("Filter by coolness and map to superheroes",  coolSuperheroes);
+    PrintHelper.printListInOneLine("Filter by coolness and map to superheroes:",  coolSuperheroes);
   }
 }

@@ -11,6 +11,6 @@ public class FilterMapGather {
         .mapToInt(Superhero::getAge)
         .average();
 
-    PrintHelper.printValue("Filter by coolness, map to Superhero and calculate age mean", averageAge.getAsDouble());
+    PrintHelper.printValue("Filter by coolness, map to Superhero and calculate age mean:", averageAge.getAsDouble());
   }
 }

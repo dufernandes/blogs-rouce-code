@@ -13,7 +13,7 @@ public class MapList {
         .map(person -> new Superhero(person.getAge(), person.getName(), "fly")).collect(
         Collectors.toList());
 
-    PrintHelper.printListInOneLine("Map ordinary people to superheroes",  superheroes);
+    PrintHelper.printListInOneLine("Map ordinary people to superheroes:",  superheroes);
   }
 
 }
